@@ -1,7 +1,0 @@
-export const Popular = [
-    { id: 26, title: "Hyperion", author: "Dan Simmons", publishedDate: "1989-05-26", pages: 482, coverImage: "https://covers.openlibrary.org/b/isbn/9780553283686-M.jpg", description: "Travelers confront mysteries on a distant world." },
-    { id: 38, title: "Contact", author: "Carl Sagan", publishedDate: "1985-09-19", pages: 430, coverImage: "https://covers.openlibrary.org/b/isbn/9780671004101-M.jpg", description: "Humanity receives a message from deep space." },
-    { id: 84, title: "The Power of Habit", author: "Charles Duhigg", publishedDate: "2012-02-28", pages: 371, coverImage: "https://covers.openlibrary.org/b/isbn/9780812981605-M.jpg", description: "A study of how habits are formed and changed." },
-    { id: 100, title: "Born a Crime", author: "Trevor Noah", publishedDate: "2016-11-15", pages: 304, coverImage: "https://covers.openlibrary.org/b/isbn/9780399588175-M.jpg", description: "Stories from the comedian’s childhood in apartheid-era South Africa." },
-    { id: 13, title: "Life of Pi", author: "Yann Martel", publishedDate: "2001-09-11", pages: 336, coverImage: "https://covers.openlibrary.org/b/isbn/9780156027328-M.jpg", description: "A boy survives at sea with a Bengal tiger." },
-]
