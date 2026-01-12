@@ -1,4 +1,4 @@
-import {PopularBooks} from "./PopularBooks"
+// import {PopularBooks} from "./PopularBooks"
 
 
 function Homecontents() {
@@ -13,7 +13,7 @@ function Homecontents() {
                 </div>
             </div>
             <div className="bg-gray-700 row-span-5">
-                <PopularBooks/>
+                {/* <PopularBooks/> */}
             </div>
             <div className="bg-gray-700">genre3</div>
             <div className="bg-gray-700">genre4</div>
