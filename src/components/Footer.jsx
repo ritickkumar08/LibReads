@@ -1,3 +1,7 @@
+// footer.jsx
+// a component to display footer for the webpage.
+// will be shown on every navigating page.
+
 import React from 'react'
 import { GiBlackBook } from "react-icons/gi";
 import { FaHeartbeat } from "react-icons/fa";

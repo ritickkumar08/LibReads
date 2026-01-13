@@ -1,10 +1,10 @@
 import { createSlice } from '@reduxjs/toolkit'
-import initialBooks from '../utils/bookData'
+import {books} from '../utils/bookData'
 
 export const booksSlice = createSlice({
   name: 'books',
   initialState: {
-    value: [initialBooks],
+    value: [books],
   },
   reducers: {
     addBook: (state, action) => {

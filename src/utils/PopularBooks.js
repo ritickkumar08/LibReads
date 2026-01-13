@@ -1,0 +1,7 @@
+export const popularBooks = [
+    { id: 10, category: "Fiction", rating: 4.2, title: "The Book Thief", author: "Markus Zusak", publishedDate: "2005-03-14", pages: 552, coverImage: "https://covers.openlibrary.org/b/isbn/9780375842207-M.jpg", description: "A girl in Nazi Germany finds solace in books." },
+    { id: 73, category: "Mystery", rating: 4.4, title: "The Lincoln Lawyer", author: "Michael Connelly", publishedDate: "2005-10-01", pages: 404, coverImage: "https://covers.openlibrary.org/b/isbn/9780446696883-M.jpg", description: "A lawyer works from the back of his Lincoln car." },
+    { id: 84, category: "Non-Fiction", rating: 4.1, title: "The Power of Habit", author: "Charles Duhigg", publishedDate: "2012-02-28", pages: 371, coverImage: "https://covers.openlibrary.org/b/isbn/9780812981605-M.jpg", description: "A study of how habits are formed and changed." },
+    { id: 98, category: "Non-Fiction", rating: 4.2, title: "Unbroken", author: "Laura Hillenbrand", publishedDate: "2010-11-16", pages: 473, coverImage: "https://covers.openlibrary.org/b/isbn/9781400064168-M.jpg", description: "A WWII soldier's survival story." },
+    { id: 88, category: "Non-Fiction", rating: 4.2, title: "The Selfish Gene", author: "Richard Dawkins", publishedDate: "1976-03-13", pages: 360, coverImage: "https://covers.openlibrary.org/b/isbn/9780192860927-M.jpg", description: "An evolutionary argument for gene-centered selection." },
+]
