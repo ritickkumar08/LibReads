@@ -3,6 +3,7 @@ import {fantasy,fiction,Mystery,nonFiction,SciFi} from '../utils/pictures'
 import GenreCard, { PopularBook } from './GenreCard'
 import { popularBooks } from '../utils/PopularBooks'
 import SearchBar from './SearchBar'
+import {Link} from 'react-router-dom'
 
 
 function Homecontents() {
@@ -17,7 +18,9 @@ function Homecontents() {
                 <h2 className="text-2xl font-semibold mb-4 text-white text-center border-b">Popular Books</h2>
                 <div>
                     {popularBooks.map((book)=>(
-                        <PopularBook key={book.id} image={book.coverImage} author={book.author} bookName={book.title}/>
+                        <Link  to={`/books/${book.id}`} key={book.id}>
+                            <PopularBook image={book.coverImage} author={book.author} bookName={book.title}/>
+                        </Link>   
                     ))}
                 </div>
             </section>

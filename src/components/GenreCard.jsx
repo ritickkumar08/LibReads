@@ -1,6 +1,6 @@
 // GenreCard.jsx
 // Reusable component to display genre information in card format.
-// Used in Home page (Popular Books) and genreCard to display differnet genres of books.
+// Used in Home page (Popular Books) and genreCard to display differnet genres.
 
 import React from "react";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
