@@ -12,7 +12,7 @@ function NotFound() {
             <p className="text-white mb-6">Invalid URL: <code>{location.pathname}</code></p>
 
 
-            <Link to="/"className='border bg-red-600 text-white px-4 py-2 rounded font-semibold hover:shadow-md shadow-green-500 hover:bg-green-600'> Back to Home</Link>
+            <Link to="/"className="bg-red-600 text-white px-4 py-2 rounded font-semibold hover:shadow-md shadow-green-500 hover:bg-green-600"> Back to Home</Link>
         </div>  
     )
 }
