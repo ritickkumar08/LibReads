@@ -1,5 +1,10 @@
+// App.jsx
+// Root component that defines all application routes.
+// Handles navigation between Home, Browse Books, Book Details, Add Book, and 404.
 import { Route, Routes } from "react-router-dom"
 import NavBar from "./components/NavBar"
+
+//importing pages.
 import Home from "./pages/Home"
 import BrowseBooks from "./pages/BrowseBooks"
 import NotFound from "./pages/NotFound"
@@ -24,7 +29,7 @@ function App() {
           {/* Dynamic category routing: /books/:category */}
           <Route path="/books/:category" element={<BrowseBooks/>}/>
           {/* Dynamic category routing: /books/:id */}
-          <Route path="/books/:id" element={<BookDetails/>}/>
+          <Route path="/book/:id" element={<BookDetails/>}/>
           {/* to add a book we will have a page  */}
           <Route path="/add" element={<AddBook/>}/>
           {/* to land on errroe page if a wrong route is accessed */}

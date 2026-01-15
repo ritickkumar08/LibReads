@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom'
 function Homecontents() {
     return(
         <div className="grid grid-cols-[2fr_3fr_2fr] grid-rows-5 gap-2 gap-x-5 mt-32 mx-auto max-h-3/4 max-w-[85%]">
-            <div className=""><GenreCard image={fantasy} genre="FANTASY"/></div>
+            <Link to="/books/fantasy" className=""><GenreCard image={fantasy} genre="FANTASY"/></Link>
             <div className="row-span-5">
                 <h1 className='text-center text-3xl font-bold text-white'>Welcome to LibReads — <p className='text-2xl font-medium'>your space to explore, learn, and stay informed.</p></h1>
                 <SearchBar/>
@@ -24,10 +24,10 @@ function Homecontents() {
                     ))}
                 </div>
             </section>
-            <div className=""><GenreCard image={fiction} genre="FICTION"/></div>
-            <div className=""><GenreCard image={Mystery} genre="MYSTERY"/></div>
-            <div className=""><GenreCard image={nonFiction} genre="Non-Fiction"/></div>
-            <div className=""><GenreCard image={SciFi} genre="Sci-Fi"/></div>
+            <Link to="/books/fiction" className=""><GenreCard image={fiction} genre="FICTION"/></Link>
+            <Link to="/books/mystery" className=""><GenreCard image={Mystery} genre="MYSTERY"/></Link>
+            <Link to="/books/non-fiction" className=""><GenreCard image={nonFiction} genre="Non-Fiction"/></Link>
+            <Link to="/books/sci-fi" className=""><GenreCard image={SciFi} genre="Sci-Fi"/></Link>
         </div>
     )
 }
