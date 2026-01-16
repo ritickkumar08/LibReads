@@ -1,5 +1,5 @@
 import NavBar from "../components/NavBar";
-import Wallpaper from "../assets/Wallpaper.png"
+import Wallpaper from "../assets/Wallpaper.webp"
 import Homecontents from "../components/Homecontents";
 
 function Home(){
