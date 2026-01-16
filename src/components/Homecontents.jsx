@@ -17,7 +17,7 @@ function Homecontents() {
             {/* Center Section */}
             <div className="row-span-5">
                 <h1 className='text-center text-3xl font-bold text-white'>Welcome to LibReads — <p className='text-2xl font-medium'>your space to explore, learn, and stay informed.</p></h1>
-                <SearchBar/>
+                <Link to='/books'><SearchBar/></Link> 
             </div>
              {/* Right Column Popular Books */}
             <section className="row-span-5">
