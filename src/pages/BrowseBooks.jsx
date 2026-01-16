@@ -42,15 +42,15 @@ function BrowseBooks() {
     
     return(
         <div className="bg-slate-950 min-h-screen w-full">
-            <div className="pt-32 max-w-6xl mx-auto">
+            <div className="pt-28 md:pt-32 max-w-6xl mx-auto px-4 md:px-0">
                 <style>@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');</style>
                 {/* Page Title */}
-                <h1 className="text-3xl font-bold text-primary mb-6 text-white text-center mt-3 font-[Quintessential]">Browse Books</h1>
+                <h1 className="text-3xl font-bold mb-6 text-white text-center mt-3 font-[Quintessential]">Browse Books</h1>
                 {/* Search Bar */}
                 <SearchBar searched={searched} setSearched={setSearched}/>
 
                 {/* Books Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6 place-items-center">
                     {filteredBooks.length > 0 ? 
                         (filteredBooks.map((book)=> <BookCard key={book.id} book={book}/>)) :
                         (<p className="text-gray-600 col-span-full">No books found</p>)

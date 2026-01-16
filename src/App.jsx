@@ -15,12 +15,12 @@ import Footer from "./components/Footer"
 function App() {
  
   return (
-    <div>
+    <div className="min-h-screen flex flex-col bg-slate-950">
       {/* navbar should be visible throughout the app navigation so */}
       <NavBar/>
 
       {/* main contebt wrapper */}
-      <main>
+      <main className="flex-grow">
         <Routes>
           {/* home page will be shown on the landing page */}
           <Route path="/" element={<Home/>}/>
@@ -36,6 +36,7 @@ function App() {
           <Route path="*" element={<NotFound/>}/>
         </Routes>
       </main>
+      {/* Footer visible globally */}
       <Footer/>
     </div>
   )

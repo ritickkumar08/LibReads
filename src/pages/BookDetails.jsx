@@ -25,17 +25,17 @@ function BookDetails() {
                 {!book && (<p className="text-gray-700 text-lg">Book not found.</p>)}
 
                 {book && (
-                <div className='flex items-center p-10'>
+                <div className="flex flex-col md:flex-row items-center md:items-start p-6 md:p-10 gap-6">
                     {/* book coverImage */}
-                    <img src={book.coverImage} alt="picture of the book" className="h-70 border-2 shadow-md shadow-black mx-4 "/>
-                    <div className="flex flex-col justify-between h-6xl w-7xl p-8">
+                    <img src={book.coverImage} alt="picture of the book" className="w-30 md:w-45 rounded-md border shadow-md shadow-black "/>
+                    <div className="flex flex-col w-full md:w-auto p-2 md:p-6">
                         {/* Book Title */}
-                        <h3 className="font-[Quintessential] text-4xl font-semibold mb-1">{book.title} - {book.category}</h3>
+                        <h3 className="font-[Quintessential] text-3xl md:text-4xl font-semibold mb-1">{book.title} - {book.category}</h3>
                         {/* Author */}
                         <p className="text-gray-600 mb-4"> -{book.author}</p>
                         {/* Description Preview */}
-                        <p className="text-black text-sm line-clamp-3 mb-4">{book.description}</p>
-                        <div className='flex justify-between items-center'>
+                        <p className="text-black text-sm mb-4">{book.description}</p>
+                        <div className='flex justify-between items-center text-sm'>
                             {/* published date Preview */}
                             <p className="text-black  text-sm line-clamp-3 mb-4">published : {book.publishedDate}</p>
                             {/* no of pages */}
