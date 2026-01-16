@@ -20,7 +20,7 @@ function App() {
       <NavBar/>
 
       {/* main contebt wrapper */}
-      <main className="flex-grow">
+      <main className="grow">
         <Routes>
           {/* home page will be shown on the landing page */}
           <Route path="/" element={<Home/>}/>
